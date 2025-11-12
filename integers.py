@@ -1,6 +1,8 @@
-numbers=[10,15,20,25,30]
+numbers=list(map(int,input("enter numbers :").split()))
 result=[]
-for n in numbers:
-    if n%2!=0:
-        result.append(n)
-        print(result)
+for num in numbers:
+    if num>100:
+        result.append('over')
+    else:
+        result.append(num)
+print(result)
