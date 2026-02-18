@@ -1,0 +1,14 @@
+INSERT INTO STUDENT_DETAILS (Student_ID, Name, Age, Email)
+VALUES (1, 'Ann', 22, 'ann@gmail.com');
+INSERT INTO STUDENT_DETAILS (Student_ID, Name, Age, Email)
+VALUES (2, 'Ben', 23, 'ben@gmail.com');
+INSERT INTO STUDENT_DETAILS (Student_ID, Name, Age, Email)
+VALUES (3, 'Riya', 24, 'riya@gmail.com');
+
+
+INSERT INTO COURSE (Course_ID, Course_Name, Duration)
+VALUES (101, 'MCA', 2);
+INSERT INTO COURSE (Course_ID, Course_Name, Duration)
+VALUES (102, 'MBA', 2);
+
+
